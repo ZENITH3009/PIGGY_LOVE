@@ -6,6 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>For Bhagyashree</title>
   <style>
+  .reveal-container button {
+    background-color: #ff66a3;
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  .reveal-container button:hover {
+    background-color: #e05591;
+  }
+</style>
+  <style>
     body {
       margin: 0;
       height: 100vh;
@@ -110,6 +126,12 @@
   </style>
 </head>
 <body>
+  <div class="reveal-container">
+  <button onclick="document.getElementById('lovePhoto').style.display='block'">
+    Tap to Reveal a Surprise
+  </button>
+  <img id="lovePhoto" src="WhatsApp Image 2025-03-13 at 19.52.55_0748ec3c.jpg" alt="Surprise Photo" style="display: none; margin-top: 10px; width: 300px; border-radius: 20px;" />
+</div>
   
   <audio controls>
     <source src="fani_ellie-goulding-love-me-like-you-do-mp3.mp3" type="audio/mp3">
